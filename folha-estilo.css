@@ -124,3 +124,26 @@ iframe{
     padding-right: 0;
     margin-right: 0;
 }
+
+.footer{
+    background-image: url(../IMG/fundo-topo.jpg);
+}
+
+.elementos-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;    
+}
+
+footer a:hover{
+    color: #6dd432;
+}
